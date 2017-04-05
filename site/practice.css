@@ -1,0 +1,59 @@
+.red {
+	color: #FFFFBB;
+	font-size: 20px;
+	line-height: 1.5;
+	text-indent: 40px;
+	margin: 20px;
+}
+
+a.one {
+	margin: 20px;
+}
+
+a.one:link, a.one:visited {
+	color: #FFFFFF;
+	background-color: #CC0000;
+	padding: 10px 10px;
+	border: 2px solid #99FF33;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a.one:hover, a.one:active {
+	background-color: red;
+}
+
+a.blue:link, a.blue:visited {
+	color: blue;
+	text-decoration: none;
+}
+
+a.blue:hover, a.blue:active {
+	background-color: #33FFDD;
+	border: 2px solid #00AA55;
+}
+
+img {
+	border: 2px dotted #CCFF99;
+	margin: 10px;
+	padding: 5px;
+	float: right;
+}
+
+body {
+	background-color: grey;
+	margin: 0px;
+}
+
+#box {
+	background-color: blue;
+	padding: 10px 10px;
+	border: 5px solid #000000;
+	margin: 40px 40px;
+	max-width: 600px;
+	clear: right;
+}
+
+#content {
+	background-color: green;
+}
