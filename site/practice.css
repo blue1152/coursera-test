@@ -1,3 +1,8 @@
+* {
+	box-sizing: border-box;	
+	margin: 0px;
+}
+
 .red {
 	color: #FFFFBB;
 	font-size: 20px;
@@ -42,18 +47,41 @@ img {
 
 body {
 	background-color: grey;
-	margin: 0px;
+	background-image: url('bg.PNG');
+	background-repeat: repeat-x;
 }
 
 #box {
 	background-color: blue;
 	padding: 10px 10px;
-	border: 5px solid #000000;
-	margin: 40px 40px;
+	border: 2px solid #000000;
+	margin: 5px 5px;
+	max-width: 600px;
+	height: 100px;
+	clear: right;
+	overflow: auto;
+}
+
+#box2 {
+	background: url('bg2.PNG') no-repeat right center #99FFFF;
+	padding: 10px 10px;
+	border: 2px solid #000000;
+	margin: 5px 5px;
 	max-width: 600px;
 	clear: right;
 }
 
-#content {
+.content {
 	background-color: green;
+}
+
+.t1 {
+	margin: 10px;
+	color: #0000FF;
+	font-size: 24px;
+}
+
+.clearfix {
+	overflow: auto;
+	zoom: 1;
 }
